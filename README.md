@@ -1,16 +1,16 @@
-# About
+## About
 
 The project was created using Python 3.8 and Django 3.1
 
 Development environment: Linux
 
-# Installation
+## Installation
 
 1. Create the virtual environment: `python3 -m venv venv` (linux)  / `virtualenv venv` (windows)
 2. Activate the environment: `source venv/bin/activate` (linux) / `venv\Scripts\activate.bat` (windows)
 3. Install dependencies from the **requirements.txt** file: `pip install -r requirements.txt`
 
-# Initialization/Configuration
+## Initialization/Configuration
 
 1. With the activated environment navigate in the folder **tasks**
 2. Rename the **`.env.demo`** file in **`.env`** and set the variables within the file
@@ -20,7 +20,7 @@ Development environment: Linux
     - `python manage.py createsuperuser` and set the username and password
     - `python manage.py runserver`
 
-# What the project solves and where are the solutions within the source code
+## What the project solves and where are the solutions within the source code
 
 The project solves the following tasks:
 
